@@ -25,6 +25,12 @@ __END__
 
 =head1 DESCRIPTION
 
+A BLAH class exhibits this trait to indicate that it can tell you if it
+believes you should be able to invoke it -- that is, if you are authorized to
+call the C<execute()> method.
+
 =head1 SEE ALSO
+
+BLAH
 
 =cut
