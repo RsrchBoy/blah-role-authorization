@@ -14,6 +14,10 @@ This document describes version 0.001 of BLAH::Role::Authorization - released Ju
 
 # DESCRIPTION
 
+A BLAH class exhibits this trait to indicate that it can tell you if it
+believes you should be able to invoke it -- that is, if you are authorized to
+call the `execute()` method.
+
 # REQUIRED METHODS
 
 ## callable
@@ -24,6 +28,12 @@ Returns true if the authorizer determines that the BLAH (that is,
 `execute()`) may be called.
 
 ("Called by what" is left as an exercise for the implementer.)
+
+# SEE ALSO
+
+Please see those modules/websites for more information related to this module.
+
+- [BLAH](https://metacpan.org/pod/BLAH)
 
 # BUGS
 
