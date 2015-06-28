@@ -1,0 +1,64 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/blah-role-authorization.svg?branch=master)](https://travis-ci.org/RsrchBoy/blah-role-authorization)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/BLAH-Role-Authorization.png)](http://cpants.charsbar.org/dist/overview/BLAH-Role-Authorization)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/blah-role-authorization/badge.png?branch=master)](https://coveralls.io/r/RsrchBoy/blah-role-authorization?branch=master)
+
+# NAME
+
+BLAH::Role::Authorization - BLAH base authorization role
+
+# VERSION
+
+This document describes version 0.001 of BLAH::Role::Authorization - released June 27, 2015 as part of BLAH-Role-Authorization.
+
+# SYNOPSIS
+
+# DESCRIPTION
+
+# REQUIRED METHODS
+
+## callable
+
+A BLAH authenticator role must implement the callable method.
+
+Returns true if the authorizer determines that the BLAH (that is,
+`execute()`) may be called.
+
+("Called by what" is left as an exercise for the implementer.)
+
+# BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/RsrchBoy/blah-role-authorization/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+# AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+## I'm a material boy in a material world
+
+<div>
+    <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
+    <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
+    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fblah-role-authorization&title=RsrchBoy's%20CPAN%20BLAH-Role-Authorization&tags=%22RsrchBoy's%20BLAH-Role-Authorization%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
+</div>
+
+Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
+rather **it is simply a very pleasant surprise**. I largely create and release
+works like this because I need them or I find it enjoyable; however, don't let
+that stop you if you feel like it ;)
+
+[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fblah-role-authorization&title=RsrchBoy&#x27;s%20CPAN%20BLAH-Role-Authorization&tags=%22RsrchBoy&#x27;s%20BLAH-Role-Authorization%20in%20the%20CPAN%22),
+[Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
+[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
+
+# COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2015 by Chris Weyl.
+
+This is free software, licensed under:
+
+    The GNU Lesser General Public License, Version 2.1, February 1999
