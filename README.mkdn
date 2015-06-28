@@ -8,7 +8,7 @@ BLAH::Role::Authorization - BLAH base authorization role
 
 # VERSION
 
-This document describes version 0.001 of BLAH::Role::Authorization - released June 27, 2015 as part of BLAH-Role-Authorization.
+This document describes version 0.001 of BLAH::Role::Authorization - released June 28, 2015 as part of BLAH-Role-Authorization.
 
 # SYNOPSIS
 
